@@ -705,7 +705,7 @@ Tabs.Misc:CreateButton({
                 Content = "Loading script...",
                 Duration = 3
             })
-            loadstring(game:HttpGet("https://soluna-script.vercel.app/99-Nights-in-the-Forest.lua",true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
             scriptsLoaded = true
         end
         if Settings.ScriptToggles.Fling2Climb then
